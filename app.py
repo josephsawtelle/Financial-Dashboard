@@ -8,7 +8,7 @@ import plotly.express as px
 import streamlit as st
 
 st.set_page_config(
-    page_title="Small Business Financial Dashboard",
+    page_title="Flatirons Financial Insights",
     page_icon="📊",
     layout="wide",
 )
@@ -245,8 +245,8 @@ def downloadable_excel(transactions: pd.DataFrame, ar: pd.DataFrame) -> bytes:
     return output.getvalue()
 
 
-st.title("Small Business Financial Dashboard")
-st.caption(
+st.title("Flatirons Financial Insights")
+st.caption("Clear financial reporting for growing businesses"
     "Upload the standardized Excel template or a CSV containing transaction data. "
     "The app processes the file locally during your session and builds an interactive dashboard."
 )
