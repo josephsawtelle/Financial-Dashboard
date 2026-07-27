@@ -12,7 +12,7 @@ st.set_page_config(
     page_icon="📊",
     layout="wide",
 )
-st.image("Flatiorns Financial Insights Logo.png", width=250)
+st.image("Flatirons Financial Insights Logo.png", width=250)
 
 REQUIRED_TRANSACTION_COLUMNS = {
     "Date",
